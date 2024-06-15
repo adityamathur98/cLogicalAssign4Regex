@@ -1,0 +1,128 @@
+Q1.int a = 5;
+if (a++ > 5) {
+printf("a was greater than 5\n");
+} else {
+printf("a was not greater than 5\n");
+}
+printf("Now, a is: %d\n", a);
+
+Ans     a was greater than 5
+	Now, a is: %d\n", 6
+
+Q2. #include<stdio.h>
+int main(){
+    int a = 5;
+    if (++a > 5){
+        printf("a is greater than 5\n");
+    } else {
+        printf("a is not greater than 5\n");
+    }
+    printf("now a is : %d",a);
+}
+Ans. a is greater than 5
+	now a is : 6;
+
+Q3. #include<stdio.h>
+int main(){
+    int b = 5;
+    if (b-- < 5){
+        printf("b was less than 5\n");
+    } else {
+        printf("b was not less than 5\n");
+    }
+    printf("now b is : %d",b);
+}
+Ans. b was not less than 5
+	now b is : 4
+
+Q4. #include<stdio.h>
+int main(){
+    int b = 5;
+    if (--b < 5){
+        printf("b is less than 5\n");
+    } else {
+        printf("b is not less than 5\n");
+    }
+    printf("now b is : %d",b);
+}
+Ans. b is less than 5
+	now b is : 4
+
+Q5. #include<stdio.h>
+int main(){
+    int x = 15;
+    if (x > 10){
+        x++;
+        if (x > 20){
+            printf("x is greater than 20\n");
+        } else {
+            printf("x is not greater than 20\n");
+        }
+    } else {
+        printf("x is not greater than 10\n");
+    }
+    printf("Now, x is : %d", x);
+}
+Ans. x is not greater than 20
+	Now, x is : 16
+
+Q6. #include<stdio.h>
+int main(){
+    int a = 0;
+    
+    a++; //a incremented by 1
+    a--; //a decremented by 1
+    
+    if (a > 0){
+        printf("a is positive\n");
+    } else {
+        printf("a is not positive\n");
+    }
+    printf("Now, a is : %d",a);
+}
+Ans. a is not positive
+	Now, a is : 0
+
+Q7. #include<stdio.h>
+int main(){
+    int c = 8;
+    //c = 8
+    c++; //Increment c by 1
+    //c = 9;
+    c--; //Decrement c by 1
+    //c = 8;
+    c += 5; //Increment of c by 5
+    //c = 8 + 5 = 13;
+    c -= 10; //Decrement of c by 10
+    //c = 13 - 10 = 3
+    
+    if (c >= 0){
+        printf("c is greater than equal to 0\n");
+    } else {
+        printf("c is less than 0\n");
+    }
+    printf("Now, c is: %d",c);
+}
+Ans. c is greater than equal to 0
+	Now, c is: 3
+
+Q8. #include<stdio.h>
+int main(){
+    int d = 12;
+    int e = 8;
+    
+    d++; //increment of d by 1;
+    e--; //decrement of e by 1;
+    
+    if (d > e){
+        printf("d is greater than e\n");
+    } else if (e > d){
+         printf("e is greater than d\n");
+    } else {
+        printf("d is equal to e\n");
+    }
+    
+    printf("Now, d is %d and e is %d", d, e);
+}
+Ans. d is greater than e
+	Now, d is 13 and e is 7
